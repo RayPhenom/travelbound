@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
+    width: 100%;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-:root{
+:root {
     --PrimaryColor: hsl(199, 100%, 33%);
     --SecondaryColor: hsl(187, 85%, 43%);
-    --gradientColor: linear-gradient(to right, hsl(187, 85%,43%),hsl(199, 100%, 33%));
+    --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
     --whiteColor: hsl(0, 0%, 100%);
     --blackColor: hsl(201, 33%, 16%);
     --textColor: hsl(240, 4%, 36%);
@@ -22,37 +23,41 @@
 
 }
 
-a{
+a {
     text-decoration: none;
 }
-li{
+
+li {
     list-style: none;
 }
-.section{
+
+.section {
     padding: 4rem 0 2rem;
 }
 
-.container{
+.container {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    position: relative;
+    width: 600;
 }
 
-.icon{
+.icon {
     font-size: 2rem;
     cursor: pointer;
 }
 
-.flex{
+.flex {
     display: flex;
     align-items: center;
 }
 
-.grid{
+.grid {
     display: grid;
     align-items: center;
 }
 
-.btn{
+.btn {
     padding: .6rem 1.5rem;
     background: var(--gradientColor);
     border-radius: 3rem;
@@ -61,29 +66,29 @@ li{
     cursor: pointer;
 }
 
-.btn a{
+.btn a {
     color: var(--whiteColor);
     font-weight: 500;
 
 
 }
 
-.btn:hover{
+.btn:hover {
     background: var(--SecondaryColor);
 
 }
 
-img, video{
+img,
+video {
     width: 100%;
     height: auto;
 }
 
-input{ 
+input {
     font-size: 100%;
 }
 
-body{
+body {
     background: var(--bodyColor);
-    
-}
 
+}
