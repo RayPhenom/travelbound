@@ -45,7 +45,7 @@
 
 .home .homeContent {
   position: relative;
-  width: 100%;
+  max-width: 400px;
   height: -moz-max-content;
   height: max-content;
   padding: 8rem 1.5rem 3rem;
